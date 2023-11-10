@@ -1,3 +1,5 @@
+// 프로그래머스 level 1 - 공원 산책 172928
+
 'use strict'
 
 class Park {
@@ -39,14 +41,14 @@ class Park {
         let position = null;
         
         this.#map.some((row, y) => {
-			const x = row.indexOf(Park.SPOT.START);
+						const x = row.indexOf(Park.SPOT.START);
 
-			if (x !== -1) {
-				return position = { y, x };
-			};
-	    });
+						if (x !== -1) {
+							return position = { y, x };
+						};
+	    	});
 			
-	    return position;
+	    	return position;
     }
 }
 
@@ -114,8 +116,4 @@ function solution(map, routes) {
     
     return [dog.position.y, dog.position.x];
 }
-
-
-
-
 
