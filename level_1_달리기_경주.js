@@ -1,4 +1,4 @@
-// 프로그래머스 - 달리기 경주  178871
+// 프로그래머스 level 1 - 달리기 경주  178871
 
 'use strict'
 
@@ -23,7 +23,7 @@ class Commentator {
         this.#PLAYERS[sequence] = name;
         this.#PLAYER_MAP.set(name, sequence);
     }
-   
+
     static callPlayer(name, sequence) {
         const overtakedName = this.#PLAYERS[sequence - 1];
         
