@@ -1,3 +1,7 @@
+// 프로그래머스 level 1 - 바탕화면 정리 161990
+
+'use strict';
+
 class Computer {
   static RESOURCE_FORMAT = {
     FILE: '#',
